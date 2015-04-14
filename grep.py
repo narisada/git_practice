@@ -16,8 +16,7 @@ if argc > 1:
     filename=argvs[2]
     i=0
     f=open(filename)
-    for row in f.readlines():
-        i =i+1
+    for i,row in enumerate(f.readlines()):
         if( row.find(s,0,-1)!=-1):
-            print(i)
+            print(i+1)
     f.close

@@ -7,7 +7,6 @@ argvs = sys.argv
 argc  = len(argvs)
 s = ""
 
-f=open(argvs[1])
 if argc >1:
     for i in range(1,argc):
         if ( argvs[i] == "--help"):
