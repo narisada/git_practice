@@ -21,7 +21,7 @@ class IntList():
         return len(self.nums)
 
     def mean(self):
-        return self.sum() / self.size()
+        return self.sum() / float(self.size())
 
     def median(self):
         sorted_n = sorted(self.nums)
@@ -30,7 +30,7 @@ class IntList():
         if size % 2 == 1:
             return sorted_n[mid + 1]
         else:
-            return (sorted_n[mid] + sorted_n[mid + 1]) / 2
+            return (sorted_n[mid - 1] + sorted_n[mid]) / 2.0
 
     def set_histogram(self):
         histogram = dict()
@@ -51,7 +51,7 @@ class IntList():
     def variance(self):
         mean = self.mean()
         sigma = map(lambda x: (x - mean) ** 2, self.nums)
-        return sum(sigma) / len(sigma)
+        return sum(sigma) / float(len(sigma))
 
 
 def output(params):
