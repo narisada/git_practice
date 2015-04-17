@@ -18,7 +18,7 @@ if argc ==2:
     lines=f.readlines()#ファイルの行数がリストとして格納される
     f.close
     lines.sort()#nlog(n) step
-    lines =map(int,lines)#n step
+    lines =map(float,lines)#n step
     n=len(lines)#n? step
     sum_of_r=sum(lines)#n step
     mean_of_r= sum_of_r / n
@@ -41,13 +41,13 @@ if argc ==2:
         if (tuple[1]==max_n):
             mode_of_r=mode_of_r + [tuple[0]]
     print "合計:%d" % sum_of_r
-    print "平均:%d" % mean_of_r
+    print "平均:%f" % mean_of_r
     print "中央値:%d" % median_of_r
     print "最頻値:", 
     for i in mode_of_r:#最大n step
         print "%d"% i,
     print ""
-    print "分散:%d" % variance_of_r
+    print "分散:%f" % variance_of_r
 
 #Step数
 #入力サイズ n
