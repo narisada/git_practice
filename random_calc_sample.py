@@ -53,7 +53,6 @@ class IntList():
         sigma = map(lambda x: (x - mean) ** 2, self.nums)
         return sum(sigma) / len(sigma)
 
-
 def output(params):
     sum, mean, median, mode, variance = params
     results = [
