@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-
+import time
 
 def read(file_name):
     f = open(file_name, 'r')
@@ -54,24 +54,31 @@ class IntList():
         return sum(sigma) / float(len(sigma))
 
 def output(params):
-    sum, mean, median, mode, variance = params
+    sum, mean, median, mode, variance, start = params
+    total_time = time.time()- start
     results = [
         "合計:%d" % sum,
         "平均:%f" % mean,
         "中央値:%d" % median,
         "最頻値:" + ', '.join(map(str, mode)),
-        "分散:%f" % variance
+        "分散:%f" % variance,
+        "計測時間:%f" % total_time
     ]
     print '\n'.join(results)
 
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
+        start = time.time()
         file_name = sys.argv[1]
         numbers = read(file_name)
         n = IntList(numbers)
-        params = [n.sum(), n.mean(), n.median(), n.mode(), n.variance()]
+        params = [n.sum(), n.mean(), n.median(), n.mode(), n.variance(), start]
         output(params)
+        
+        
+
+
 
 """
 import numpy as np

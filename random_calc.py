@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import sys
+import time
 
+start = time.time()
 argvs = sys.argv
 argc  = len(argvs)
 tmp = 0
@@ -25,7 +27,7 @@ if argc ==2:
     if n % 2 == 0:
         median_of_r=lines[n/2]
     else:
-        median_of_r=(lines[(n+1)/2]+lines[(n-1)/2])/2
+        median_of_r=(lines[(n+1)/2]+lines[(n-1)/2])/2.
     for i,x in enumerate(lines):#n step
         tmp =tmp +pow((x - mean_of_r),2)
         if dict.has_key(x):
@@ -40,14 +42,17 @@ if argc ==2:
         tuple=items[i]#各タプルの取り出し
         if (tuple[1]==max_n):
             mode_of_r=mode_of_r + [tuple[0]]
+            
+    total_time = time.time()- start
     print "合計:%d" % sum_of_r
     print "平均:%f" % mean_of_r
-    print "中央値:%d" % median_of_r
+    print "中央値:%f" % median_of_r
     print "最頻値:", 
     for i in mode_of_r:#最大n step
         print "%d"% i,
     print ""
     print "分散:%f" % variance_of_r
+    print "計測時間:%f" % total_time
 
 #Step数
 #入力サイズ n
