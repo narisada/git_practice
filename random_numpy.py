@@ -1,6 +1,5 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
-#市也さんのコードを参考に書きました
+# -*- coding: utf-8 -*-t 
 
 import sys
 import time
