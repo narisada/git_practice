@@ -1,0 +1,894 @@
+    1  pwd
+    2  ls -a
+    3  bash -h
+    4  python -v
+    5  python --version
+    6  cd workspace/
+    7  mkdir medical-partjob
+    8  ls
+    9  git clone git://github.com/sukurutulo/VitalDataAnalysis
+   10  git clone http://github.com/sukurutulo/VitalDataAnalysis
+   11  git clone http://github.com/sukerutulo/VitalDataAnalysis
+   12  ls
+   13  cd VitalDataAnalysis/
+   14  ls
+   15  la
+   16  la -l
+   17  cd ..
+   18  ls
+   19  pyton
+   20  python
+   21  cat random_num.txt 
+   22  mkdir git_practice
+   23  mv random_num.txt git_practice/
+   24  cd git_practice/
+   25  ls
+   26  emacs -nw test
+   27  sudo  apt-get install emacs
+   28  emacs -nw test
+   29  git init
+   30  rm -rf .git
+   31  ls
+   32  ls -a
+   33  touch .test
+   34  ls
+   35  ls -a
+   36  rm .test
+   37  git init
+   38  ls
+   39  ls -a
+   40  git add test
+   41  git status
+   42  git commit
+   43  git config --global user.email "shintaro_narisada@shino.ecei.tohoku.ac.jp"
+   44  git config --global user.name "narisada"
+   45  git commit
+   46  git status
+   47  git remote add origin https://github.com/narisada/git_practice.git
+   48  git push origin master
+   49  git status
+   50  git commit
+   51  git push origin master
+   52  history
+   53  history > git_commands
+   54  cat git_commands 
+   55  emacs -nw .git/config 
+   56  sudo apt-get install tig
+   57  tig
+   58  python
+   59  git
+   60  sudo apt-get install git
+   61  git
+   62  sqlite
+   63  sqlite3
+   64  sudo apt-get install sqlite3
+   65  pip
+   66  sudo apt-get install python-pip
+   67  pip list
+   68  pip list | grep numpy
+   69  ls
+   70  ls | grep exa
+   71  cd ドキュメント/
+   72  cd ..
+   73  numpy
+   74  pip install numpy
+   75  sudo apt-get install python2.7-dev
+   76  pip install numpy
+   77  python
+   78  sudo pip install numpy
+   79  python
+   80  history
+   81  cat git_commands
+   82  history
+   83  history > commands01
+   84  cat commands01
+   85  shortcut
+   86  help
+   87  ls
+   88  cd -a
+   89  ls -a
+   90  cd workspace
+   91  ls
+   92  pwd
+   93  cd  ../
+   94  cd workspace/medical-partjob
+   95  cd  ../../
+   96  cd workspace/medical-partjob
+   97  emacs -nw test2
+   98  ls
+   99  mv test2  git_practice/
+  100  mv test2  ../
+  101  cd ../
+  102  ls
+  103  mv test2 git_practice
+  104  cd git_practice
+  105  ls
+  106  git init
+  107  git status
+  108  git add test2
+  109  git status
+  110  git commmit -a
+  111  git --help
+  112  git commit -a
+  113  status
+  114  git status
+  115  git push origin master 
+  116  emacs
+  117  python
+  118  ls
+  119  Eclippse
+  120  Eclipse
+  121  emacs help
+  122  vim
+  123  sudo apt-get install vim
+  124  vim
+  125  emacs python
+  126  cd workspace/git_practice/
+  127  emacs test.py
+  128  echo hello
+  129  emacs test.py
+  130  python echo.py hhh
+  131  ls
+  132  emacs test.py
+  133  python test.py hhh
+  134  mv test.py echo.py
+  135  ls
+  136  python echo.py my name
+  137  emacs echo.py
+  138  python echo.py my name
+  139  emacs echo.py
+  140  python echo.py my name
+  141  emacs echo.py
+  142  python echo.py my name
+  143  emacs echo.py
+  144  python echo.py my name
+  145  emacs echo.py
+  146  python echo.py my name
+  147  emacs echo.py
+  148  python echo.py my name
+  149  emacs python-mode
+  150  ls
+  151  rm python-mode
+  152  ls
+  153  python echo.py my name
+  154  emacs python-mode
+  155  git status
+  156  git add echo.py
+  157  git status
+  158  git commit -m "4/10の課題echo.pyです"
+  159  git push origin master 
+  160  python echo.py echoeho
+  161  emacs echo.py
+  162  python echo.py echoeho
+  163  python echo.py echoeho sd
+  164  echo echo pe
+  165  cat echo.py
+  166  ls
+  167  echo --help
+  168  echo 
+  169  ls --help
+  170  cat --help
+  171  echo "" --help
+  172  echo '--help
+  173  man echo
+  174  echo --version
+  175  echo --help
+  176  echo -h
+  177  echo--help
+  178  echo --help
+  179  echo ---help
+  180  echo s --help
+  181  man echo
+  182  echo --help sss
+  183  echo --help
+  184  echo
+  185  cd workspace/git_practice/
+  186  ls
+  187  emacs echo
+  188  emacs echo.py
+  189  cat --help
+  190  cat tddd --help
+  191  cat tddd--help
+  192  emacs echo.py
+  193  python echo.py
+  194  emacs echo.py
+  195  python echo.py
+  196  emacs echo.py
+  197  python echo.py
+  198  emacs echo.py
+  199  python echo.py
+  200  python echo.py 7489 hdsf
+  201  emacs echo.py
+  202  python echo.py 7489 hdsf
+  203  emacs echo.py
+  204  python echo.py 7489 hdsf
+  205  emacs echo.py
+  206  python echo.py 7489 hdsf
+  207  echo 7489 hdsf
+  208  emacs echo.py
+  209  python echo.py 7489 hdsf
+  210  emacs echo.py 
+  211  python echo.py 7489 hdsf
+  212  python echo.py 7489 hdsf --help
+  213  emacs echo.py 
+  214  python echo.py 7489 hdsf --help
+  215  python echo.py 7489 hdsf
+  216  python echo.py --help
+  217  emacs echo.py 
+  218  emacs echo.py &
+  219  echo テスト
+  220  echo テスト　テスト
+  221  ls -l
+  222  mkdir
+  223  mkdir dir
+  224  ls
+  225  ls -l
+  226  chmod +x echo.py
+  227  ls 
+  228  ls -l
+  229  ./echo.py test
+  230  which python
+  231  ./echo.py test
+  232  python echo.py tst
+  233  ./echo.py test
+  234  ls
+  235  echo test
+  236  add echo.py
+  237  git add echo.py
+  238  git status
+  239  git commit -m "echo.pyにhelpを実装しました"
+  240  git push origin master
+  241  history
+  242  history > command4-10
+  243  cat --help
+  244  cd workspace/medical-partjob/
+  245  ks
+  246  ls
+  247  cd ../
+  248  ls
+  249  cd git_practice/
+  250  ls
+  251  ./echo.py testls -a
+  252  ls -a
+  253  ls -l
+  254  ./echo.py test
+  255  echo.py test
+  256  ./echo.py test
+  257  cp echo.py cat.py
+  258  ls
+  259  cp echo.py head.py
+  260  cp echo.py grep.py
+  261  cp echo.py tail.py
+  262  emacs cat.py &
+  263  cat cat.py
+  264  cat cat.py echo.py
+  265  cat cat.py |cat.py
+  266  cat cat.py | cat.py
+  267  cat cat.py echo.py
+  268  cat cat.py  cat.py cat.py
+  269  ./cat.py cat.py 
+  270  cat cat.py 
+  271  ./cat.py cat.py 
+  272  ./cat.py cat.py  cat.py
+  273  cat cat.py  cat.py
+  274  ./cat.py cat.py  cat.py --help
+  275  cat cat.py  cat.py cat.py --help
+  276  head echo.py
+  277  emacs head.py &
+  278  emacs cat.py &
+  279  emacs head.py &
+  280  emacs cat.py &
+  281  emacs tst.py &
+  282  head tst.py
+  283  ./head.py head.py
+  284  head head.py
+  285  ./head.py head.py
+  286  head head.py
+  287  ./head.py head.py
+  288  head head.py
+  289  ./head.py head.py
+  290  head head.py
+  291  ./head.py head.py
+  292  head head.py
+  293  ./head.py head.py
+  294  ./head.py head.py --p
+  295  ./head.py head.py --help
+  296  ./head.py head.py -5
+  297  ./head.py head.py -3
+  298  ./head.py head.py -5
+  299  emacs head.py &
+  300  ./head.py head.py -5
+  301  ./head.py head.py -3
+  302  ./head.py head.py -5
+  303  ./head.py head.py -8
+  304  ./head.py head.py -4
+  305  head head.py -4
+  306  head --help
+  307  head head.py --4
+  308  head head.py -n 4
+  309  head -n head.py  4
+  310  head  head.py -n  4
+  311  cp head.py head_p
+  312  ls
+  313  head head.py -n --help
+  314  head head.py -n 7
+  315  ./head.py head.py -3 hkjxv
+  316  head head.py -n 
+  317  ./head.py head.py -3 hkjxv
+  318  head head.py -3 hkjx
+  319  ./head.py head.py -3 hkjxv
+  320  ./head.py head.py -3 hkj
+  321  ./head.py head.py -3
+  322  ./head.py head.py -n 3
+  323  ./head.py head.py -n 5
+  324  head head.py -n 5
+  325  cp  head.py  tail.py
+  326  emacs tail.py &
+  327  tail tail.py
+  328  tail -n 6 tail.py
+  329  tail tail.py -n 6
+  330  head tst.py -n 5
+  331  /head.py tst.py -n 5
+  332  ./head.py tst.py -n 5
+  333  cp  tail.py head.py
+  334  ./head.py tst.py -n 5
+  335  emacs head.py &
+  336  ./head.py tst.py -n 5
+  337  ./head.py tst.py 
+  338  ./head.py tst.py -n 5
+  339  ./head.py tst.py -n 
+  340  ./head.py tst.py -n 4
+  341  ./head.py tst.py -n 23
+  342  ./head.py tst.py -n 
+  343  ./head.py tst.py 
+  344  ./head.py -n 5 tst.py 
+  345  ./head.py -n  tst.py 
+  346  ./head.py tst.py 
+  347  ./head.py -n 7 tst.py 
+  348  ./head.py -n 2 tst.py 
+  349  ./head.py tst.py -n 3 
+  350  ./head.py tst.py -n a
+  351  ./head.py tst.py -n 3
+  352  ./head.py tst.py -n 2
+  353  ./head.py tst.py -n 2 
+  354  cp head.py tail.py
+  355  emacs tail.py
+  356  emacs tail.py &
+  357  tail tst -n 2 
+  358  tail tst.py -n 2 
+  359  ./tail.py tst.py -n 2 
+  360  ./tail.py tst.py 
+  361  ./tail.py tail.py 
+  362  ./tail.py tail.py n -5
+  363  ./head.py tail.py n -5
+  364  ./tail.py tail.py -n 5
+  365  tail tail.py -n 5 
+  366  grep "print" tail.py
+  367  cp  tail.py grep.py 
+  368  emacs  grep.py & 
+  369  grep "print" tail.py --help
+  370  grep "print" tail.py
+  371  grep print tail.py
+  372  grep  tail.py print
+  373  ./grep  print tail.py
+  374  ./grep.py  print tail.py
+  375  ./grep.py  print grep.py
+  376  ./grep.py  "print" grep.py
+  377  ./grep.py  "print" --help  grep.py
+  378  git add grep.py cat.py head.py tail.py
+  379  git status
+  380  git commit -m "cat.py,head.py,tail.py,grep.pyをそれぞれ実装しました.オプションは--help及び,cat.py,head.py,tail.pyに関しては-nを使用できるようにしました"
+  381  git remote add origin
+  382  git push origin master 
+  383  history > commands4_13
+  384  cd workspace/git_practice/
+  385  emacs random_num.py &
+  386  cp cat.py random_num.py
+  387  emacs random_num.py &
+  388  ./random_num.py 23
+  389  ls
+  390  emacs random_num &
+  391  emacs random_num.txt &
+  392  emacs random_num.py &
+  393  ./random_num.py 23
+  394  cd workspace/git_practice/
+  395  ./random_num.py 23
+  396  ls
+  397  emacs random_num.txt &
+  398  emacs random_num.py &
+  399  ./random_num.py 23
+  400  emacs random_num_tst.txt &
+  401  ./random_num.py 23
+  402  emacs random_num_tst.txt &
+  403  ./random_num.py 23
+  404  emacs random_num_tst.txt &
+  405  ./random_num.py 23
+  406  emacs random_num_tst.txt &
+  407  ./random_num.py 23
+  408  emacs random_num_tst.txt &
+  409  emacs random_num_tst  &
+  410  ./random_num.py 23
+  411  emacs random_num_tst  &
+  412  ./random_num.py 23
+  413  emacs random_num_tst  &
+  414  ./random_num.py 23
+  415  emacs random_num_tst  &
+  416  ./random_num.py 23
+  417  emacs random_num_tst  &
+  418  ./random_num.py 23
+  419  ./random_num.py 5
+  420  ./random_num.py 23
+  421  ./random_num.py 5
+  422  emacs random_num_tst  &
+  423  ./random_num.py 5
+  424  emacs random_num  &
+  425  ls
+  426  cp cat.py random_calc.py
+  427  emacs random_calc.py &
+  428  emacs random_num.py &
+  429  cp tail.py random_calc.py
+  430  emacs random_calc.py &
+  431  ./random_calc.py 
+  432  ./random_calc.py  random_num
+  433  ./random_calc.py 
+  434  ./random_calc.py  random_num
+  435  ./random_num.py 100
+  436  ./random_calc.py  random_num
+  437  emacs random_num &
+  438  ./random_calc.py  random_num
+  439  emacs random_num &
+  440  ./random_calc.py  random_num
+  441  ls
+  442  git add random_num.py random_calc.py
+  443  git status
+  444  git commit -m "random_numを生成するrandom_num.pyと計算プログラムrandom_calc.pyを作成"
+  445  git push origin master
+  446  git init
+  447  git push origin master
+  448  git status
+  449  git remote add origin https://narisada@github.com/narisada/git_practice
+  450  git push origin master
+  451  git status
+  452  git add random_num.py random_calc.py
+  453  cd workspace/git_practice/
+  454  git status
+  455  git push origin master
+  456  cp random_num.py random_numpy.py
+  457  cp random_calc.py random_calcnumpy.py
+  458  emacs random_numpy.py & 
+  459  cp random_calc.py random_calc_numpy.py
+  460  emacs random_calc_numpy.py &
+  461  ./random_calc_numpy.py
+  462  ./random_calc_numpy.py random_num
+  463  emacs random_num.py &
+  464  ./random_num.py  100 10000 
+  465  cd workspace/git_practice/
+  466  ./random_num.py  100 10000 
+  467  emacs random_num &
+  468  ./random_num.py  100 10000 
+  469  emacs random_num &
+  470  cd
+  471  cd workspace/git_practice/
+  472  ls
+  473  emacs random_num.py &
+  474  ./random_num.py  100 10000 
+  475  emacs random_num &
+  476  emacs random_num.py &
+  477  ./random_num.py  100 10000 
+  478  emacs random_num.py &
+  479  emacs random_num &
+  480  ./random_num.py  100 10000 
+  481  emacs random_num &
+  482  emacs random_num_tst &
+  483  ./random_num.py  100 10000 
+  484  cd workspace/git_practice/
+  485  emacs random_num_tst &
+  486  emacs random_num.py &
+  487  ./random_num.py  100 10000 
+  488  emacs random_num_tst &
+  489  ./random_num.py  100 100
+  490  emacs random_num_tst &
+  491  emacs random_numpy.py & 
+  492  ./random_num.py  100 100
+  493  emacs random_num_ &
+  494  emacs random_num &
+  495  ./random_num.py  100 10000
+  496  emacs random_num &
+  497  ./random_num.py  100 10000
+  498  emacs random_num &
+  499  ./random_num.py  100 10000
+  500  emacs random_num &
+  501  emacs random_calc.py &
+  502  git add random_num.py random_calc.py
+  503  commit -m "random_num.pyに入力にmaxを追加,random_calcにstep数を追記"
+  504  git commit -m "random_num.pyに入力にmaxを追加,random_calcにstep数を追記"
+  505  emacs random_calc.py &
+  506  ./random_calc.py random_num
+  507  emacs random_num &
+  508  ./random_num.py  100 255
+  509  ./random_calc.py random_num
+  510  git clone /workspace/git-practice
+  511  git clone /workspace/git-practice/
+  512  git clone workspace/git-practice/AAAAAAA
+  513  cd workspace/git_practice/
+  514  git clone 
+  515  dBBAAAAAz
+  516  :d
+  517  :100
+  518  git fetch
+  519  git merge
+  520  status checkout
+  521  git status checkout
+  522  git fetch
+  523  ~~~~~z~git merge
+  524  hkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkhhkh
+  525  emacs random_calc.p
+  526  git log
+  527  git fetch
+  528  cd
+  529  cd workspace/
+  530  git clone http://www.shino.ecei.tohoku.ac.jp/gitbucket/git/todoroki/gitbucket-test.git
+  531  cd gitbucket-test/
+  532  ls
+  533  #!/usr/bin/python 
+  534  # -*- coding: utf-8 -*-
+  535  import sys
+  536  import random
+  537  argvs = sys.argv
+  538  argc  = len(argvs)
+  539  if argc == 2:;     f=open("random_num","w+")
+  540  # -*- coding: utf-8 -*-
+  541  import sys
+  542  import random
+  543  argvs = sys.argv
+  544  argc  = len(argvs)
+  545  if argc == 2:;     f=open("random_num","w+")
+  546  # -*- coding: utf-8 -*-
+  547  import sys
+  548  import random
+  549  argvs = sys.argv
+  550  argc  = len(argvs)
+  551  if argc == 2:;     f=open("random_num","w+")
+  552  #!/usr/bin/python 
+  553  # -*- coding: utf-8 -*-
+  554  import sys
+  555  import random
+  556  argvs = sys.argv
+  557  argc  = len(argvs)
+  558  if argc == 2:;     f=open("random_num","w+")
+  559  # -*- coding: utf-8 -*-
+  560  import sys
+  561  import random
+  562  argvs = sys.argv
+  563  argc  = len(argvs)
+  564  if argc == 2:;     f=open("random_num","w+")
+  565  cd 
+  566  cd workspace/git_practice/
+  567  git diff
+  568  git log
+  569  dc0f879da7c06bbf9ed58d0480f22ca965277452
+  570  git dc0f879da7c06bbf9ed58d0480f22ca965277452
+  571  git checkout  dc0f879da7c06bbf9ed58d0480f22ca965277452
+  572  git checkout -b new_random_calc
+  573  ls
+  574  emacs random_calc.py &
+  575  git log
+  576  aaaDDDDD
+  577  ~[2;3~3~3~egit checkout -b new_random_calcssss
+  578  skdjk
+  579  shjkhkshjk
+  580  pip install http
+  581  httop www.google.com
+  582  http www.google.com
+  583  sudo apd-get anstall httpie
+  584  sudo apt-get install httpie
+  585  http www.google.com
+  586  git log
+  587  git checkout a548fb5c24510d3c2c8e3734497226dc6ebc2ef4
+  588  add -a
+  589  git add -a
+  590  git add -A
+  591  git status
+  592  git commit -t "別枝作成のためあるものすべてコミット"
+  593  git commit --help
+  594  git commit -m "別枝作成のためあるものすべてコミット"
+  595  git checkout a548fb5c24510d3c2c8e3734497226dc6ebc2ef4
+  596  git checkout -b new_random_calc
+  597  git checkout -b new_random_calc2
+  598  git status
+  599  git log
+  600  emacs random_num.py &
+  601  emacs random_calc.py &
+  602  git show
+  603  git checkout -b new_random_calc
+  604  git checkout -b new_random_calc2
+  605  git push origin new_random_calc2
+  606  git add random_calc.py 
+  607  git commit -m "ブランチに枝を伸ばすテスト"
+  608  git p
+  609  git log
+  610  emacs random_num.py &
+  611  ./random_num.py 100 10000
+  612  emacs random_num.py &
+  613  emacs random_num
+  614  git checkout master
+  615  emacs random_num.py &
+  616  emacs random_calc.py &
+  617  git add random_num.py
+  618  git commit -m "tst"
+  619  git checkout master
+  620  emacs random_calc.py &
+  621  git log
+  622  git status
+  623  git add random_num 
+  624  git commit origin master
+  625  git push origin master
+  626  git commit -m "バックアップの為全フアイルをリポジトリに上げました"
+  627  git push origin master
+  628  git fetch
+  629  tig
+  630  git merge origin/master
+  631  tig
+  632  git status
+  633  tig
+  634  git push origin master
+  635  tig
+  636  ls
+  637  cd workspace/git_practice/
+  638  ls
+  639  ./random_num.py 1000000 1000
+  640  ls -a
+  641  ls -al
+  642  ls -alhv
+  643  ./random_num.py 10000000 1000
+  644  ls
+  645  ls -alhv
+  646  ./random_calc.py random_num
+  647  python random_calc_sample.py random_num
+  648  emacs random_calc.py &
+  649  ./random_num.py 1000 1000
+  650  ./random_calc.py random_num
+  651  python random_calc_sample.py random_num
+  652  ./random_calc.py random_num
+  653  emacs random_calc_sample.py &
+  654  python random_calc_sample.py random_num
+  655  ./random_calc.py random_num
+  656  python random_calc_sample.py random_num
+  657  ./random_calc.py random_num
+  658  ./random_num.py 10 10
+  659  python random_calc_sample.py random_num
+  660  ./random_calc.py random_num
+  661  emacs random_num &
+  662  emacs random_calc_sample.py &
+  663  cd workspace/git_practice/
+  664  git status
+  665  git commit -A
+  666  git status
+  667  git add random_calc.py random_num
+  668  git commit -m "edit random_calc.py"
+  669  git push origin master
+  670  cd workspace/git_practice/
+  671  git fetch
+  672  git merge origin/master
+  673  git status
+  674  git commit -a
+  675  git merge origin/master
+  676  git status 
+  677  git commit random_calc_sample.py 
+  678  git add random_calc_sample.py 
+  679  git status 
+  680  git commit -m "modified" 
+  681  git merge origin/master
+  682  git status emacs random_calc_sample.py 
+  683  emacs random_calc_sample.py &
+  684  ./random_calc.py random_num
+  685  python random_calc_sample.py random_num
+  686  xset -r 49
+  687  aaaaaaaa
+  688  emacs echo.py 
+  689  emacs examples.desktop 
+  690  cd workspace/git_practice/
+  691  ls
+  692  emacs test
+  693  emacs test &
+  694  sudo apt-get install scim-anthy
+  695  ああああああああ
+  696  aaあああああ
+  697  emacs test &
+  698  update
+  699  cd
+  700  ls
+  701  find emacs
+  702  ls -a
+  703  cs .emacs.d
+  704  cd .emacs.d
+  705  ls
+  706  ls -a
+  707  cd
+  708  ls
+  709  cd ダウンロード
+  710  ls
+  711  ls -a
+  712  cd
+  713  ls
+  714  cd  root
+  715  sudo -su
+  716  sudo su-
+  717  emacs-mozc
+  718  ./random_calc.py random_num
+  719  cd workspace/git_practice/
+  720  ./random_calc.py random_num
+  721  emacs random_calc.py random_num &
+  722  ./random_calc.py random_num
+  723  emacs random_calc.py random_num &
+  724  emacs random_calc.py  &
+  725  ./random_calc.py random_num
+  726  python random_calc_sample.py random_num
+  727  emacs random_calc_sample.py &
+  728  python
+  729  python random_calc_sample.py random_num
+  730  ./random_calc.py random_num
+  731  ./random_num.py 1000 10000000
+  732  python random_calc_sample.py random_num
+  733  ./random_num.py 1000 10000000
+  734  python random_calc_sample.py random_num
+  735  ./random_calc.py random_num
+  736  ./random_num.py 1000 100000000
+  737  ./random_num.py 1000 1000000000
+  738  ./random_num.py 1000 10000000000
+  739  ./random_num.py 1000 100000000000
+  740  ./random_num.py 1000 1000000000000
+  741  ./random_num.py 1000 10000000000000
+  742  ./random_num.py 1000 100000000000000
+  743  ./random_num.py 1000 100000000000000000
+  744  python random_calc_sample.py random_num
+  745  ./random_num.py 10000000 1000
+  746  ./random_calc.py random_num
+  747  python random_calc_sample.py random_num
+  748  aaaa
+  749  vmware-user
+  750  python -m cProfike -s time random_calc_sample.py random_num
+  751  python -m cProfile -s time random_calc_sample.py random_num
+  752  ls
+  753  cd workspace/git_practice/
+  754  python -m cProfile -s time random_calc_sample.py random_un
+  755  python -m cProfile -s time random_calc.py random_num
+  756  python -m cProfile -s time random_calc_sample.py random_num
+  757  emacs random_calc_sample.py  &
+  758  ls
+  759  emacs random_numpy.py  &
+  760  emacs random_calc_sample.py  &
+  761  emacs random_numpy.py  &
+  762  emacs random_calc_sample.py  &
+  763  cd workspace/git_practice/
+  764  emacs random_numpy.py  &
+  765  ./random_numpy.py random_num.py
+  766  python random_numpy.py random_num.py
+  767  emacs random_num.py  &
+  768  python random_numpy.py random_num
+  769  python random_calc_sample.py random_num
+  770  python random_numpy.py random_num
+  771  ibus-gtk3
+  772  sudo install ibus-gtk3
+  773  emacs random_numpy.py  &
+  774  emacs-mozc
+  775  sudo install emacs-mozc
+  776  emacs-mozc
+  777  cd
+  778  ls
+  779  emacs-mozc
+  780  ls -a
+  781  sudo apt-get install emacs-mozc emacs-mozc-bin
+  782* 
+  783  emacs
+  784  sudo apt-get remove emacs*
+  785  apt-get autoremove
+  786  su -
+  787  sudo apt-get autoremove
+  788  emacs
+  789  sudp apt-get install emacs
+  790  sudo apt-get install emacs
+  791  emacs random_numpy.py  &
+  792  sudo apt-get install emacs-mozc
+  793  emacs random_numpy.py  &
+  794  find WM_IME_STARTCOMPOSITION
+  795  emacs random_numpy.py  &
+  796  sudo apt-get install ibus-mozc
+  797  sudo apt-get install emacs-mozc-bin
+  798  sudo apt-get install emacs-mozc
+  799  emacs random_numpy.py  &
+  800  XMODIFERS=@im=none emacs
+  801  emacs random_numpy.py  &
+  802  ibus-setup
+  803  emacs random_numpy.py  &
+  804  ibus-setup
+  805  emacs a &
+  806  ibus
+  807  ibus-setup
+  808  gedit
+  809  emacs a &
+  810  sudp apt-get install anthy-el
+  811  sudo apt-get install anthy-el
+  812  emacs a &
+  813  anthy
+  814  sudo apt-get remove anthy
+  815  apt-get autoremove 
+  816  sudo apt-get autoremove 
+  817  emacs a &
+  818  ibus
+  819  ibus-setup
+  820  sudo apt-get install afctix-mozc
+  821  sudo apt-get install fctix-mozc
+  822  sudo apt-get install fcitx-mozc
+  823  ibus-setup
+  824  fcitx
+  825  fcitx --help
+  826  fcitx -enable
+  827  fcitx --enable
+  828  sudo apt-get remove anthy
+  829  mozk
+  830  emacs a &
+  831  sudo apt-get remove emacs-mozc
+  832  emacs a &
+  833  e
+  834  emacs a &
+  835  sudo apt-get install emacs-mozc
+  836  sudo apt-get install emacs-mozc-bin
+  837  apt-get autoremove
+  838  sudo apt-get autoremove
+  839  emacs a &
+  840  fcitx-diagnose
+  841  emacs a &
+  842  fcitx
+  843  ibus --help
+  844  ibus exit
+  845  fcitx
+  846  aaaaaaa
+  847  yes
+  848  emacs a &
+  849  cd workspace/git_practice/
+  850  python random_calc_sample.py random_num
+  851  python -m cProfile -s time random_calc_sample.py random_num
+  852  python -m cProfile -s time random_calc.py random_num
+  853  python -m cProfile -s time random_numpy.py random_num
+  854* python -m cProfile -s time random_numpy.py random_num|head -n 3
+  855  cat random_numpy.py
+  856  cd ../
+  857  cd medical-partjob/
+  858  ls
+  859  cd VitalDataAnalysis/
+  860  ls
+  861  python createRandomData.py 
+  862  cat createRandomData.py 
+  863  python createRandomData.py sample 20 0 50
+  864  ls
+  865  cat sample 
+  866  ls
+  867  cat create
+  868* 
+  869  mkdir 01 02 03 04
+  870  python createRandomData.py 01/sample.csv 20 0 50
+  871  python createRandomData.py 02/sample.csv 20 0 50
+  872  python createRandomData.py 03/sample.csv 20 0 50
+  873  python createRandomData.py 04/sample.csv 20 0 50
+  874  sh insert_database.sh 
+  875  ls
+  876  ls 01/
+  877  sqlite3 vital_sample_data.sqlite 
+  878  mv vital_sample_data.sqlite  sample.db
+  879  mv sample.db workspace/git_practice/
+  880  mv sample.db /workspace/git_practice/
+  881  mv sample.db ~/workspace/git_practice/ 
+  882  cd ../
+  883  cd medical-partjob/VitalDataAnalysis/
+  884  cd ~
+  885  cd /
+  886  ls
+  887  cd ~
+  888  cd /
+  889  cd
+  890  cd workspace/git_practice/
+  891  ls
+  892  cp sample.db backup.db
+  893  sqlite3 sample.db 
+  894  history > database001
